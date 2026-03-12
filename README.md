@@ -13,7 +13,7 @@
 
 - Денормализации данных в MongoDB
 
-Синхронизация данных происходит каждые минут по умолчанию, можно изменить в .env файле.
+Синхронизация данных происходит каждые минут по умолчанию.
 
 ## Инструкция по запуску:
 
@@ -53,7 +53,7 @@ A system for periodic data synchronization from PostgreSQL to MongoDB with the s
 
 - Data denormalization in MongoDB
 
-Synchronization happens every minute by default, can be changed in a .env file.
+Synchronization happens every minute by default.
 
 ## Usage manual
 
