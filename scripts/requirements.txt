@@ -1,0 +1,6 @@
+psycopg2-binary==2.9.9
+pymongo==4.5.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+loguru==0.7.2
+schedule==1.2.0
