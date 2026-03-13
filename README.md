@@ -13,7 +13,7 @@
 
 - Денормализации данных в MongoDB
 
-Синхронизация данных происходит каждые минут по умолчанию.
+Синхронизация данных происходит каждые 5 минут по умолчанию.
 
 ## Инструкция по запуску:
 
@@ -35,7 +35,7 @@ docker-compose exec sync-script python /app/scripts/test_idempotency.py
 
 5. Опционально, вы можете настроить .env файл.
 
-6. Интервал синхронизации можно настроить в cron/sync-cron, для этого нужно изменить 1 цифру на желаемое количество минут.
+6. Интервал синхронизации можно настроить в .env
 
 
 # En
@@ -53,7 +53,7 @@ A system for periodic data synchronization from PostgreSQL to MongoDB with the s
 
 - Data denormalization in MongoDB
 
-Synchronization happens every minute by default.
+Synchronization happens every 5 minutes by default.
 
 ## Usage manual
 
@@ -75,5 +75,4 @@ docker-compose exec sync-script python /app/scripts/test_idempotency.py
 
 5. Optionally, you can redact .env file.
 
-6. Synchronization interval can be adjusted at cron/sync-cron, to do that,
-you need to change the first number to the number of minutes you want.
+6. Synchronization interval can be adjusted in a .env file.

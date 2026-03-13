@@ -55,7 +55,6 @@ services:
     volumes:
       - ./scripts:/app/scripts
       - ./sync_state.json:/app/sync_state.json
-      - ./.env:/app/.env
     restart: unless-stopped
 
 volumes:
